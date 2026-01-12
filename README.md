@@ -1,18 +1,16 @@
-## Getting Started
+# Restaurant Website
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Dự án Landing Page cho nhà hàng cao cấp, tập trung vào giao diện hiện đại và trải nghiệm người dùng mượt mà.
 
-## Folder Structure
+## 🔗 Live Demo
+[Bấm vào đây để xem web]([https://thuanngo3008.github.io/Restaurant_Project/](https://thuanngo3008.github.io/Restaurant_Project/src/))
 
-The workspace contains two folders by default, where:
+## 🛠️ Công nghệ sử dụng
+* **Frontend:** HTML5, CSS3, JavaScript/jQuery.
+* **Responsive:** Hiển thị tốt trên mọi thiết bị (Mobile, Tablet, Desktop).
+* **Deployment:** GitHub Pages.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## ✨ Tính năng
+* Giao diện menu món ăn chuyên nghiệp.
+* Hiệu ứng hình ảnh và cuộn trang mượt mà.
+* Form liên hệ và đặt bàn tích hợp.
