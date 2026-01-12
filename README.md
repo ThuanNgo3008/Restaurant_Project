@@ -1,6 +1,6 @@
 # Restaurant Website
 
-Dự án Landing Page cho nhà hàng cao cấp, tập trung vào giao diện hiện đại và trải nghiệm người dùng mượt mà.
+Dự án cho nhà hàng cao cấp, tập trung vào giao diện hiện đại và trải nghiệm người dùng mượt mà.
 
 ## 🔗 Live Demo
 [Bấm vào đây để xem web]([https://thuanngo3008.github.io/Restaurant_Project/](https://thuanngo3008.github.io/Restaurant_Project/src/))
