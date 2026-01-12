@@ -1,0 +1,66 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root {
+    --signature-color: #FBAF32;
+    --text-color: #848484;
+    --green-color: #719A0A;
+}
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid_row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.grid_column-2_8 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: calc((100% / 12) * 8);
+}
+
+.grid_column-2_4 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: calc((100% / 12) * 4);
+}
+
+.grid_column-2_6 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: calc((100% / 12) * 6);
+}
+
+.grid_column-3_2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: calc((100% / 4) * 2);
+}
+
+.grid_column-3_4 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: calc((100% / 8) * 4);
+}
+
+.grid_column-4_3 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: calc((100% / 12) * 3);
+}
+
+.grid_column-2_3 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: calc((100% / 6) * 3);
+}

@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hồn Thơ Restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+<body>
+    <header>
+        <div class="grid">
+            <div class="HT-header">
+                <h1><a class="header-logo" href="">Hồn Thơ <span>Restaurant</span></a></h1>
+
+                <!-- mobile -->
+                 <button id="mobile-menu" class="header-button" type="button"><i class="header-icon fa-solid fa-bars"></i></button>
+                 <!-- -------------------------------->
+
+                <nav class="header-nav hide-on-mobile">
+                    <ul class="header-nav_list">
+                        <li><a class="header-nav_item" href="#">Trang Chủ</a></li>
+                        <li><a class="header-nav_item" href="#content-2">Giới Thiệu</a></li>
+                        <li><a class="header-nav_item" href="#content-4">Menu</a></li>
+                        <li><a class="header-nav_item" href="#content-1">
+                            Đặt Bàn
+                            <ul class="DB-list">
+                                <li><a href="">Ngoài Trời</a></li>
+                                <li><a href="">Trong Nhà</a></li>
+                            </ul>
+                        </a></li>
+                        <li><a class="header-nav_item" href="#content-5">Liên Hệ</a></li>
+                    </ul>
+
+                </nav>
+
+            </div>
+            
+        </div>
+        <i class="button-page fa-solid fa-chevron-up"></i>
+    </header>
+
+    
+
+    <main>
+        <section class="slider">
+            <div class="grid">
+                <div class="s-img">
+                    <img class="slider-img" src="./assets/img/carousel-1.jpg" alt="0">
+                </div>
+    
+                <article class="slider-content">
+                    <h1 class="slider-heading hide-on-mobile">Hương Vị <span>Đậm Đà</span></h1>
+                    
+                    <!-- trên mobile-->
+                    <h1 class="slider-heading slider-heading-mobile">Không Gian <span>Sang Trọng</span></h1>
+                    <!-- -------------------------------------- -->
+    
+                    <p class="slider-text hide-on-mobile">Chất lượng thức ăn là điểm nổi bật của Tư Nhớ Restaurant, thực khách một khi đã yêu những món ăn ở đây đều không thể không quay lại</p>
+                    
+                    <!-- trên mobile -->
+                     <p class="slider-text slider-text-mobile">Không gian thiết kế đặc biệt sang trọng là nơi lí tưởng để các công ty tiếp đãi khách hàng, tổ chức party hoặc là nơi hẹn hò của những cặp tình nhân đôi lứa</p>
+                    <!-- --------------------------------------- -->
+                    <article class="slider-button">
+                        <a href="#content-4" class="button">Xem Menu</a>
+                        <a href="#content-1" class="button button-book">Đặt bàn</a>
+                    </article>
+                </article>
+
+            </img>
+        </section>
+
+        <!-- content-1 -->
+        <section id="content-1">
+            <div class="grid">
+                <div class="grid_row-content">
+                    <div class="grid_column-2_8">
+                        <article class="main-content">
+                            <p class="main-heading-small">Đặt Bàn</p>
+    
+                            <h2 class="main-heading-big">Đặt Bàn Trước Cho Họp Mặt, Liên Hoan, Hội Nghị, Gặp Gỡ</h2>
+    
+                            <p class="main-text">Bạn muốn tìm một nhà hàng sang trọng đẳng cấp thích hợp cho những buổi hẹn hò, nói chuyện lịch sự. Bạn muốn tìm một quán nhậu để tụ họp bạn bè, cùng chén tạc chén thù, cùng thư giãn và bỏ lại mọi lo âu mệt nhọc. Hay chỉ đơn giản là một ngày đẹp trời tự dưng bạn muốn đi ăn. Vậy thì chẳng có lí do gì bạn lại bỏ qua bộ sưu tập "ĐẶT BÀN ONLINE - Đặt bàn trực tuyến nhanh nhất, Ưu đãi hấp dẫn" này. Đặt bàn là có chỗ chỉ sau 3 phút.</p>
+    
+                            <p class="main-text">Hiện nay, khách hàng có thể đặt bàn từ xa với nhiều cách thức khác nhau. Nhân viên Phục vụ cần nắm chắc thông tin liên quan đến việc đặt bàn, hiểu được lưu ý cần thiết khi sắp xếp bàn theo đúng ý khách, đảm bảo duy trì chất lượng dịch vụ của nhà hàng.</p>
+    
+                        </article>
+                    </div>
+    
+                    <div class="grid_column-2_4 block-2">
+                        <form action="" method="" class="form">
+                            <div>
+                                <input type="text" name="name" id="" required placeholder="Tên khách hàng">
+                                <i class="input-icon fa-regular fa-user"></i>
+                            </div>
+                            
+                            <div>
+                                <input type="email" name="email" id="" required placeholder="Email">
+                                <i class="input-icon fa-regular fa-envelope"></i>
+                            </div>
+
+                            <div>
+                                <input type="tel" name="phone" id="" minlength="10" maxlength="10" required placeholder="Số Điện Thoại">
+                                <i class="input-icon fa-solid fa-mobile-screen-button"></i>
+                            </div>
+
+                            <div>
+                                <input type="date" name="date" id="" required placeholder="Ngày Đến">
+                                <i class="input-icon fa-regular fa-calendar-days"></i>
+                            </div>
+
+                            <div>
+                                <input type="time" name="time" id="" required placeholder="Thời Gian Đến">
+                                <i class="input-icon fa-regular fa-clock"></i>
+                            </div>
+
+                            <div>
+                                <input type="number" min="1" name="number" id="" required placeholder="Số Lượng Khách">
+                                <i class="input-icon fa-solid fa-chevron-down"></i>
+                            </div>
+
+                            <button type="submit">Book Now</button>
+    
+                        </form>
+                        
+                    </div>
+    
+                </div>
+
+            </div>
+        </section>
+
+        <!-- content-2 -->
+        <section id="content-2">
+            <div class="grid">
+                <div class="grid_row-content">
+                    <div class="grid_column-2_6">
+                        <iframe class="intro-video" src="https://www.youtube.com/embed/9OquUp6x5IU?si=41VEQDKoyTrrIMj9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="grid_column-2_6">
+                        <article>
+                            <p class="main-heading-small content-2-small">Giới thiệu</p>
+    
+                            <h2 class="main-heading-big content-2-big">Tư Nhớ Restaurant</h2>
+    
+                            <p class="main-text content-2-text content-2-text-linef">Tư Nhớ 11 tọa lạc trên con đường Hoàng Văn Thụ sầm uất nên rất dễ tìm. Mỗi khi nhắc đến quán ốc nổi tiếng tại Bình Dương thì Tư Nhớ là cái tên đầu tiên được xướng lên. Để làm nên thành công của quán, không thể không nhắc tới cung cách phục vụ đồ ăn rất nhanh nhẹn trong lúc khách đông, cùng với đồ ăn giá phải chăng, cùng chất lượng món ăn ngon. Ngoài ra, thực đơn tại quán cũng rất đa dạng và phong phú, chủ yếu là các loại hải sản và lẩu.</p>
+    
+                            <p class="main-text content-2-text">Khi đến với Tự Nhớ 11, bạn nên thử một vài món ăn nổi tiếng ở đây như ốc bươu hấp sả, nghêu hấp thái, sò lông nướng mỡ hành, ốc lenxào dừa. Tất cả đều được nêm nếm rất vừa miệng, có hương vi ngon, hợp khẩu vị nhiều thực khách. Có thể nói, Tư Nhớ 11 - Hải Sản Tươi Sống chính là điểm đến lý tưởng cho những ai yêu thích hải sản ở Bình Dương </p>
+
+                            <a href="#content-1" class="button button-content-2">Book A Table</a>
+    
+                        </article>
+                        
+                    </div>
+    
+                </div>
+
+            </div>
+        </section>
+
+        <!-- content-3 -->
+        <section id="content-3">
+            <div class="grid">
+                <div class="grid_row-content">
+                    <div class="grid_column-2_5">
+                        <article>
+                            <p class="main-heading-small content-2-small">Lí do chọn Tư Nhớ Restaurant</p>
+    
+                            <h2 class="main-heading-big content-2-big">Điểm Nổi Bật</h2>
+                        </article>
+
+                        <div class="left-picture">
+                            <div class="grid_column-2_5-2">
+                                <img class="left-img" style="border-top-left-radius: 10px;" src="./assets/img/feature-1.1.jpg" alt="">
+                            </div>
+    
+                            <div class="grid_column-2_5-2">
+                                <img class="left-img" style="border-top-right-radius: 10px;" src="./assets/img/feature-2.2.jpg" alt="">
+                            </div>
+    
+                            <div class="grid_column-2_5-2">
+                                <img class="left-img bottom-img" style="border-bottom-left-radius: 10px;" src="./assets/img/feature-3.3.jpg" alt="">
+                            </div>
+    
+                            <div class="grid_column-2_5-2">
+                                <img class="left-img bottom-img" style="border-bottom-right-radius: 10px;" src="./assets/img/feature-4.4.jpg" alt="">
+                            </div>
+
+                        </div>
+
+                        <p class="content-3-text">Nhà hàng hải sản tư nhớ là là top nhà hàng hải sản tại Bình Dương cung cấp cũng như chế biến rất nhiều những món ăn ngon và hấp dẫn từ nguồn thực phẩm này.</p>
+
+                        <a href="#content-1" class="button content-3-button">Đặt Bàn</a>
+                    </div>
+
+                    <div class="grid_column-2_7">
+                        <div class="grid_row-content block_7">
+                            <div class="grid_column-2_7-2">
+                                <article class="right-content">
+                                    <img class="right-content_img" src="./assets/img/BRASSERIE-BRANDARIS.png" alt="">
+
+                                    <h3 class="right-content_title">Đầu bếp hàng đầu</h3>
+
+                                    <p class="right-content_text">Chúng tôi tự hào với đội ngũ đầu bếp hơn 20 năm kinh nghiệm sẽ làm hài lòng những thực khách khó tính nhất </p>
+
+                                </article>
+                            </div>
+
+                            <div class="grid_column-2_7-2">
+                                <article class="right-content">
+                                    <img class="right-content_img right-content_img-mobile" src="./assets/img/freshveget.png" alt="">
+
+                                    <h3 class="right-content_title">Nguyên liệu tự nhiên</h3>
+
+                                    <p class="right-content_text">Chúng tôi không sử dụng hóa chất hay các phụ phẩm gây hại trong quá trình chế biến thực phẩm, các nguyên liệu đều đến từ thành phần thiên nhiên </p>
+
+                                </article>   
+                            </div>
+
+                            <div class="grid_column-2_7-2">
+                                <article class="right-content">
+                                    <img class="right-content_img" src="./assets/img/award.png" alt="">
+
+                                    <h3 class="right-content_title">Sản phẩm chất lượng cao</h3>
+
+                                   <p class="right-content_text">Các món ăn được chuẩn bị với công thức đặc biệt giúp đảm bảo không chỉ ngon miệng mà còn đầy đủ chất dinh dưỡng và năng lượng </p>
+
+                                </article>    
+                            </div>
+
+                            <div class="grid_column-2_7-2">
+                                <article class="right-content">
+                                    <img class="right-content_img" src="./assets/img/freshmeat.png" alt="">
+
+                                    <h3 class="right-content_title">Nguyên liệu tươi sống</h3>
+
+                                    <p class="right-content_text">Tư Nhớ restaurant chỉ nhập hải sản, thịt tươi sống có xuất xứ rõ ràng đảm bảo vệ sinh an toàn thực phẩm, không chất bảo quản </p>
+
+                                </article>  
+                            </div>
+
+                            <div class="grid_column-2_7-2">
+                                <article class="right-content">
+                                    <img class="right-content_img" src="./assets/img/fast-delivery.png" alt="">
+
+                                    <h3 class="right-content_title">Giao hàng nhanh chóng</h3>
+
+                                    <p class="right-content_text">Hỗ trợ dịch vụ giao hàng, nhanh chóng, miễn phí với các khách hàng muốn đặt tiệc tại nhà, nơi làm việc </p>
+
+                                </article>
+                            </div>
+
+                            <div class="grid_column-2_7-2">
+                                <article class="right-content">
+                                    <img class="right-content_img" src="./assets/img/veget.png" alt="">
+
+                                    <h3 class="right-content_title">Rau củ an toàn</h3>
+
+                                    <p class="right-content_text">Sử dụng rau củ an toàn, không qua các hóa chất bảo vệ thực vật, thuốc trừ sâu </p>
+
+                                </article>
+    
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- content-4 -->
+        <section id="content-4">
+            <div class="grid">
+                <div class="main-content main-content-4">
+                    <p class="main-heading-small">Thực Đơn</p>
+
+                    <h2 class="main-heading-big main-heading-big-4">Phục Vụ Các Món</h2>
+
+                    <form name="" action="" method="get" class="content-4-btn">
+                        <a href="javascript:void(0)" class="button content-4-button content-4-seafood">Hải Sản</a>
+                        <a href="javascript:void(0)" class="button content-4-button content-4-hotpot">Lẩu</a>
+                        <a href="javascript:void(0)" class="button content-4-button content-4-drink">Thức Uống</a>
+                    </form>
+
+                </div>
+
+                <div class="grid_row-content">
+                    <div class="grid_column-2_8">
+
+                        <!-- HẢI SẢN -->
+                         <article class="seafood-menu">
+                             <article class="menu">
+                                 <img class="menu-img hao-img" src="./assets/img/menu-1.jpg" alt="">
+     
+                                 <div class="menu-content">
+                                     <div class="menu-name-price">
+                                         <h3 class="menu-name hs-h-dash">Hàu Sữa Nướng Mỡ Hành</h3>
+                                         <h3 class="menu-price">200.000 <span>đ</span></h3>
+                                     </div>
+         
+                                     <p class="menu-trans">Hàu sữa là món ngon chế biến từ Hải Sản cuốn hút thực khách</p>
+                                 </div>
+                             </article>
+     
+                             <article class="menu">
+                                 <img class="menu-img" src="./assets/img/menu-2.jpg" alt="">
+     
+                                 <div class="menu-content">
+                                     <div class="menu-name-price">
+                                         <h3 class="menu-name hs-c-dash">Cua Rang Me</h3>
+                                         <h3 class="menu-price">200.000 <span>đ</span></h3>
+                                     </div>
+         
+                                     <p class="menu-trans">Dòng hải sản cao cấp làm hài lòng cả những thực khách kỹ tính nhất</p>
+                                 </div>
+                             </article>
+     
+                             <article class="menu">
+                                 <img class="menu-img" src="./assets/img/menu-3.jpg" alt="">
+     
+                                 <div class="menu-content">
+                                     <div class="menu-name-price">
+                                         <h3 class="menu-name hs-o-dash">Ốc Móng Tay Hấp</h3>
+                                         <h3 class="menu-price">200.000 <span>đ</span></h3>
+                                     </div>
+         
+                                     <p class="menu-trans">Món ngon lạ miệng tụ tập thêm vui</p>
+                                 </div>
+                             </article>
+     
+                             <article class="menu">
+                                 <img class="menu-img" src="./assets/img/menu-4.jpg" alt="">
+     
+                                 <div class="menu-content">
+                                     <div class="menu-name-price">
+                                         <h3 class="menu-name hs-th-dash">Tôm Hùm Bỏ Lò</h3>
+                                         <h3 class="menu-price">200.000 <span>đ</span></h3>
+                                     </div>
+         
+                                     <p class="menu-trans">Hương vị đậm đà cho cả nhà thưởng thức</p>
+                                 </div>
+                             </article>
+     
+                             <article class="menu">
+                                 <img class="menu-img" src="./assets/img/menu-5.jpg" alt="">
+     
+                                 <div class="menu-content">
+                                     <div class="menu-name-price">
+                                         <h3 class="menu-name hs-ts-dash">Tôm Sú Chiến Bơ</h3>
+                                         <h3 class="menu-price">200.000 <span>đ</span></h3>
+                                     </div>
+         
+                                     <p class="menu-trans">Món ăn ngon mùi vị đậm đà khó cưỡng</p>
+                                 </div>
+                             </article>
+
+                         </article>
+
+                        <!-- LẨU -->
+                         <article class="hotpot-menu">
+                             <article class="menu">
+                                 <img class="menu-img hao-img" src="./assets/img/menu-2-1.jpg" alt="">
+     
+                                 <div class="menu-content">
+                                     <div class="menu-name-price">
+                                         <h3 class="menu-name l-kc-dash">Lẩu Kim Chi Hải Sản</h3>
+                                         <h3 class="menu-price">200.000 <span>đ</span></h3>
+                                     </div>
+         
+                                     <p class="menu-trans">Vị cay đặc trưng của nước dùng cùng vị ngọt của các loại hải sản và rau củ</p>
+                                 </div>
+                             </article>
+     
+                             <article class="menu">
+                                 <img class="menu-img hao-img" src="./assets/img/menu-2-2.jpg" alt="">
+     
+                                 <div class="menu-content">
+                                     <div class="menu-name-price">
+                                         <h3 class="menu-name l-c-dash">Lẩu Cá Ba Sa</h3>
+                                         <h3 class="menu-price">200.000 <span>đ</span></h3>
+                                     </div>
+         
+                                     <p class="menu-trans">Nước dùng thơm ngon ngọt béo ngất ngây</p>
+                                 </div>
+                             </article>
+     
+                             <article class="menu">
+                                 <img class="menu-img hao-img" src="./assets/img/menu-2-3.jpg" alt="">
+     
+                                 <div class="menu-content">
+                                     <div class="menu-name-price">
+                                         <h3 class="menu-name l-tc-dash">Lẩu Thập Cẩm</h3>
+                                         <h3 class="menu-price">200.000 <span>đ</span></h3>
+                                     </div>
+         
+                                     <p class="menu-trans">Nước dùng ngon ngọt tự nhiên từ xương kết hợp cùng các loại hải sản và vị chua cay của sả, ớt, lá chanh</p>
+                                 </div>
+                             </article>
+     
+                             <article class="menu">
+                                 <img class="menu-img hao-img" src="./assets/img/menu-2-4.jpg" alt="">
+     
+                                 <div class="menu-content">
+                                     <div class="menu-name-price">
+                                         <h3 class="menu-name l-t-dash">Lẩu Thái</h3>
+                                         <h3 class="menu-price">200.000 <span>đ</span></h3>
+                                     </div>
+         
+                                     <p class="menu-trans">món ăn biến thể từ món canh chua Tom yum nổi tiếng của Thái Lan</p>
+                                 </div>
+                             </article>
+
+                         </article>
+
+                        <!-- THỨC UỐNG -->
+                         <article class="drink-menu">
+                             <article class="menu">
+                                <img class="menu-img hao-img" src="./assets/img/menu-3-1.jpg" alt="">
+    
+                                <div class="menu-content">
+                                    <div class="menu-name-price">
+                                        <h3 class="menu-name tu-bt-dash">Bia Tiger</h3>
+                                        <h3 class="menu-price">200.000 <span>đ</span></h3>
+                                    </div>
+        
+                                    <p class="menu-trans">Bia Tiger hương vị êm đầm sảng khoái, sản phẩm được ưa chuộng nhất tại Việt Nam</p>
+                                </div>
+                            </article>
+    
+                            <article class="menu">
+                                <img class="menu-img hao-img" src="./assets/img/menu-3-2.jpg" alt="">
+    
+                                <div class="menu-content">
+                                    <div class="menu-name-price">
+                                        <h3 class="menu-name tu-bh-dash">Bia Heineken</h3>
+                                        <h3 class="menu-price">200.000 <span>đ</span></h3>
+                                    </div>
+        
+                                    <p class="menu-trans">Heineken, hương vị bia Heineken đồng nhất trên khắp thế giới</p>
+                                </div>
+                            </article>
+    
+                            <article class="menu">
+                                <img class="menu-img hao-img" src="./assets/img/menu-3-3.jpg" alt="">
+    
+                                <div class="menu-content">
+                                    <div class="menu-name-price">
+                                        <h3 class="menu-name tu-s-dash">Strong Bow</h3>
+                                        <h3 class="menu-price">200.000 <span>đ</span></h3>
+                                    </div>
+        
+                                    <p class="menu-trans">Strongbow là một trong những thương hiệu cider nổi tiếng trên thế giới</p>
+                                </div>
+                            </article>
+    
+                            <article class="menu">
+                                <img class="menu-img hao-img" src="./assets/img/menu-3-4.jpg" alt="">
+    
+                                <div class="menu-content">
+                                    <div class="menu-name-price">
+                                        <h3 class="menu-name tu-c-dash">CocaCola</h3>
+                                        <h3 class="menu-price">200.000 <span>đ</span></h3>
+                                    </div>
+        
+                                    <p class="menu-trans">Nước tăng lực Coca cola giải khát tức thì, nạp nhanh năng lượng</p>
+                                </div>
+                            </article>
+    
+                            <article class="menu">
+                                <img class="menu-img hao-img" src="./assets/img/menu-3-5.jpg" alt="">
+    
+                                <div class="menu-content">
+                                    <div class="menu-name-price">
+                                        <h3 class="menu-name tu-a-dash">Aquafina</h3>
+                                        <h3 class="menu-price">200.000 <span>đ</span></h3>
+                                    </div>
+        
+                                    <p class="menu-trans">Aquafina là nước uống tinh khiết được xử lý qua hệ thống thẩm thấu ngược và Ozon</p>
+                                </div>
+                            </article>
+                         </article>
+                    </div>
+
+    
+                    <div class="grid_column-2_4 block-2 menu-rightimg hide-on-mobile">
+                        <img class="hsmn" src="./assets/img/Hải sản.jpg" alt="">
+                        <img class="lmn" src="./assets/img/Lẩu.jpg" alt="">
+                        <img class="tumn" src="./assets/img/Thức uống.jpg" alt="">
+                    </div>
+    
+                </div>
+
+            </div>
+
+            </div>
+
+        </section>
+
+        <!-- content-5 -->
+        <section id="content-5">
+            <div class="grid">
+                <div class="main-content main-content-4">
+                    <p class="main-heading-small">Liên Hệ</p>
+
+                    <h2 class="main-heading-big main-heading-big-4">Liên lạc với chúng tôi thông qua các kênh</h2>
+                </div>
+                <div class="grid_row-content">
+                    <div class="grid_row-content grid-contact">
+                        <div class="grid_column-4_3">
+                            <div class="contact">
+                                <i class=" contact-icon fa-solid fa-location-dot"></i>
+    
+                                <div class="contact-inf">
+                                    <h3>Địa chỉ</h3>
+    
+                                    <p>Đường CMT8, TDM</p>
+    
+                                </div>
+    
+                            </div>
+                        </div>
+    
+                        <div class="grid_column-4_3">
+                            <div class="contact">
+                                <i class=" contact-icon fa-solid fa-phone"></i>
+    
+                                <div class="contact-inf">
+                                    <h3>Số Điện Thoại</h3>
+    
+                                    <a href="tel: 0123 456 789">(+84)123 456 789</a>
+    
+                                </div>
+    
+                            </div>
+                        </div>
+    
+                        <div class="grid_column-4_3">
+                            <div class="contact">
+                                <i class="contact-icon mail-icon fa-solid fa-envelope"></i>
+    
+                                <div class="contact-inf">
+                                    <h3>Email</h3>
+    
+                                    <a href="mailto: restaurant@gmail.com">restaurant@gmail.com</a>
+    
+                                </div>
+    
+                            </div>
+                        </div>
+    
+                        <div class="grid_column-4_3">
+                            <div class="contact">
+                                <i class="contact-icon fa-solid fa-share"></i>
+    
+                                <div class="contact-inf">
+                                    <h3>Follow tại</h3>
+    
+                                    <div class="contact-follow">
+                                        <a class="" href=""><i class="contact-follow-icon fa-brands fa-twitter"></i></a>
+                                        <a class="" href=""><i class="contact-follow-icon fa-brands fa-facebook-f"></i></a>
+                                        <a class="" href=""><i class="contact-follow-icon fa-brands fa-youtube"></i></a>
+                                        <a class="" href=""><i class="contact-follow-icon fa-brands fa-instagram"></i></a>
+                                        <a class="" href=""><i class="contact-follow-icon fa-brands fa-linkedin-in"></i></a>
+    
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="ft">
+            <div class="grid">
+                <div class="grid_row-content">
+                    <div class="grid_column-3_4">
+                        <h3 class="ft-heading ft-fsep">Liên hệ</h3>
+    
+                        <nav class="ft-nav">
+                            <ul class="ft-nav_list">
+                                <li class="ft-nav_item">
+                                    <i class=" ft-icon fa-solid fa-location-dot"></i>
+                                    Đường CMT8, TDM
+                                </li>
+                                <li class="ft-nav_item">
+                                    <a href="tel: 0123 456 789">
+                                        <i class=" ft-icon fa-solid fa-phone"></i> (+84)123 456 789
+                                    </a>
+                                </li>
+                                <li class="ft-nav_item">
+                                    <a href="mailto: restaurant@gmail.com">
+                                        <i class=" ft-icon fa-solid fa-envelope"></i> restaurant@gmail.com
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="ft-cir" href=""><i class="ft-social fa-brands fa-twitter"></i></a>
+                                    <a class="ft-cir" href=""><i class="ft-social fa-brands fa-facebook-f"></i></a>
+                                    <a class="ft-cir" href=""><i class="ft-social fa-brands fa-youtube"></i></a>
+                                    <a class="ft-cir" href=""><i class="ft-social fa-brands fa-instagram"></i></a>
+                                    <a class="ft-cir" href=""><i class="ft-social fa-brands fa-linkedin-in"></i></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="grid_column-3_3">
+                        <h3 class="ft-heading ft-ssep">Link hỗ trợ</h3>
+    
+                        <nav class="ft-nav">
+                            <ul class="ft-nav_list">
+                                <li class="ft-nav_item">
+                                    <a href="">
+                                        <i class=" ft-icon ft-right fa-solid fa-chevron-right"></i> Điều khoản
+                                    </a>
+                                </li>
+
+                                <li class="ft-nav_item">
+                                    <a href="">
+                                        <i class=" ft-icon ft-right fa-solid fa-chevron-right"></i> Chứng nhận kinh doanh
+                                    </a>
+                                </li>
+
+                                <li class="ft-nav_item">
+                                    <a href="">
+                                        <i class=" ft-icon ft-right fa-solid fa-chevron-right"></i> Cookies
+                                    </a>
+                                </li>
+
+                                <li class="ft-nav_item">
+                                    <a href="">
+                                        <i class=" ft-icon ft-right fa-solid fa-chevron-right"></i> Help
+                                    </a>
+                                </li>
+
+                                <li class="ft-nav_item">
+                                    <a href="">
+                                        <i class=" ft-icon ft-right fa-solid fa-chevron-right"></i> FQAs
+                                    </a>
+                                </li>
+                                
+                                
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="grid_column-3_5">
+                        <h3 class="ft-heading ft-tsep">Thông báo</h3>
+    
+                        <nav class="ft-nav">
+                            <ul class="ft-nav_list">
+                                <li class="ft-nav_item">
+                                    Giúp bạn nắm chắc những thông báo cũng như thay đổi về Tư Nhớ Restaurant. Hãy để lại email để chúng tôi cập nhật thông tin về ưu đãi, đổi mới, sự kiện đến với các bạn một cách nhanh nhất.
+                                </li>
+
+                                <li class="ft-nav_item">
+                                    <form class="ft-form" action="" name="" method="post">
+                                        <input required type="email" name="" placeholder="Email của bạn">
+                                        <button type="submit" class="button ft-button">Gửi</button>
+                                    </form>
+
+                                </li>
+
+                                
+                            </ul>
+                        </nav>
+                    </div>
+    
+                </div>
+            </div>
+
+        </div>
+
+        <div class="ft-second">
+            Copyright &copy;<span>Tư Nhớ Restaurant</span>, All Right Reserved. Free Template Designed By <a href="">HTML Codex</a>
+        </div>
+    </footer>
+    
+
+    <script src="./index.js"></script>
+
+    <!-- nút go to top -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if($(this).scrollTop()) {
+                    $('.button-page').fadeIn();
+                } else {
+                    $('.button-page').fadeOut();
+                }
+            });
+            $('.button-page').click(function() {
+                $('html, body').animate({scrollTop: 0}, 400);
+            })
+        });
+    </script>
+</body>
+</html>
