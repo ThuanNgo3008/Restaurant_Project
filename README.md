@@ -4,7 +4,7 @@ This project is for a high-end restaurant, focusing on a modern interface and a 
 
 ## 🔗 Live Demo
 https://thuanngo3008.github.io/Restaurant_Project/src/
-## 🛠️ Công nghệ sử dụng
+## 🛠️ Technology used
 * **Frontend:** HTML5, CSS3, JavaScript/jQuery.
 * **Responsive:** Displays well on all devices (Mobile, Tablet, Desktop).
 * **Deployment:** GitHub Pages.
